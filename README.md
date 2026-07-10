@@ -45,7 +45,7 @@ Follow the steps in [LAB.md](LAB.md) in order.
 ├── README.md           # This file
 ├── LAB.md              # Step-by-step lab instructions
 ├── prometheus.yml      # Prometheus configuration
-└── alert.rules.yml     # Alerting rules
+└── alert_rules.yml     # Alerting rules
 ```
 
 ## Key Ports

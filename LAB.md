@@ -26,7 +26,7 @@ See the corresponding YouTube video with 5 sample questions here: [INSERT YOUTUB
 prometheus-sample-questions/
 ├── LAB.md               # This file
 ├── prometheus.yml       # Prometheus configuration
-└── alert.rules.yml      # Alerting rules
+└── alert_rules.yml      # Alerting rules
 ```
 
 ---
@@ -82,7 +82,7 @@ cd node_exporter-*/
 Verify Node Exporter is exposing metrics on port 9100:
 
 ```bash
-curl http://localhost:9100/metrics | head -20
+curl http://localhost:9100/metrics
 ```
 
 **Configure Prometheus to scrape Node Exporter.**
@@ -173,7 +173,7 @@ alerting:
         - targets: ['localhost:9093']
 
 rule_files:
-  - "alert.rules.yml"
+  - "alert_rules.yml"
 
 scrape_configs:
   - job_name: 'prometheus'
@@ -184,7 +184,7 @@ scrape_configs:
       - targets: ['<VM2-IP>:9100']
 ```
 
-**Create `alert.rules.yml`:**
+**Create `alert_rules.yml`:**
 
 ```yaml
 groups:
