@@ -2,7 +2,7 @@
 
 A hands-on lab covering all 5 question topics.
 
-See the corresponding YouTube video with 5 sample questions here: [INSERT YOUTUBE LINK HERE]
+See the corresponding YouTube video with 5 sample questions here: https://youtu.be/XSvS2zQdH7g
 
 ©️ Dave Prowse
 

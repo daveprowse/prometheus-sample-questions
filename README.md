@@ -4,7 +4,7 @@ A hands-on Prometheus lab demonstrating key concepts covered in the **Prometheus
 
 ©️ Dave Prowse
 
-📺 **Watch the video:** [INSERT YOUTUBE LINK HERE]
+📺 **Watch the video:** https://youtu.be/XSvS2zQdH7g
 
 📄 **Free Prometheus (PCA) Cram Sheet & Sample Questions:** https://prowse-tech.kit.com/prometheus-cramsheet
 
@@ -25,6 +25,7 @@ A hands-on Prometheus lab demonstrating key concepts covered in the **Prometheus
 - Two Debian-based Linux VMs (VirtualBox or similar)
   - **VM1:** Prometheus server + Alertmanager
   - **VM2:** Node Exporter (monitored target)
+  - *(I call mine deb1 and deb2.)*
 - Internet access to download binaries from https://prometheus.io/download/
 - No cloud credentials required
 
